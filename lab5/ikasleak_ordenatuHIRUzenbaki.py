@@ -68,4 +68,20 @@ def proba():
 	n1,n2,n3=ordenatuHIRU(n1,n2,n3)
 	print "2,7,5 Zuen programak idatzi behar du 7 5 2 eta idazten du: %d %d %d" %(n1,n2,n3);
 
+    """
+        Nire proba kasuak (jon):
+        
+        HIRU ZENBAKI EZBERDIN
+        n1    n2    n3
+        1     2     3     <-     desordenatuta
+        1     3     2     <-     desordenatuta
+        2     1     3     <-     desordenatuta
+        2     3     1     <-     desordenatuta
+        3     1     2     <-     desordenatuta
+        3     2     1     <-     ordenatuta
+        
+        BI ZENBAKI EZBERDIN
+        
+    """
+
 proba()
